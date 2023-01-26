@@ -27,4 +27,12 @@ func main() {
 
 	name := "rahul"
 	fmt.Println(name)
+	
+	//const value must be initialized during declaration
+	//const l int
+	//l = 10
+
+	const pi=3.14   //implicit typing
+	const val int32 = 3 //explicit typing
+	fmt.Println(pi)
 }
